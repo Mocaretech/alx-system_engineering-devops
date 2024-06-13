@@ -1,2 +1,2 @@
-#!/bin/bash specifies that the script should be run using the Bash shell
-pwd prints the absolute path of the current working directory
+#!/bin/bash # specifies that the script should be run using the Bash shell
+pwd #prints the absolute path of the current working directory
