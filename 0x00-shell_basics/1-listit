@@ -1,2 +1,2 @@
-#!/bin/bash #content of 1-lisitit
-#ls #list the content of current directory
+#!/bin/bash
+ls
