@@ -1,2 +1,2 @@
 #!/bin/bash
-for i in {a..z}; do for j in {a..z}; do [ "$i$j" != "oo" ] && echo $i$j; done; done
+i=a;while [ "$i" != "aa" ]; do j=a;while [ "$j" != "aa" ]; do [ "$i$j" != "oo" ]&&echo "$i$j";j=$(echo "$j" | tr "a-y" "b-z");done;i=$(echo "$i" | tr "a-y" "b-z");done
