@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "scale=10; ${POWER:?POWER is not set} / ${DIVIDE:?DIVIDE is not set}" | bc
+echo $(( ${POWER:-0} / ${DIVIDE:-1} ))
