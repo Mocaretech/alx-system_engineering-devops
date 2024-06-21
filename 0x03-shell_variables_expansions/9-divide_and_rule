@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "scale=10; ${POWER:?POWER is not set} / ${DIVIDE:?DIVIDE is not set}" | bc
