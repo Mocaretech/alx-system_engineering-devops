@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(echo "$WATER" | tr 'wxyz' '0123') + $(echo "$STIR" | tr 'abcd' '0123') | bc | tr '0123456789' 'efgh'
+echo $(($WATER + $STIR))
